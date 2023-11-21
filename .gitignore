@@ -1,0 +1,7 @@
+# Prometheus local data storage
+data
+
+# Ignore application binaries
+prometheus
+node_exporter
+promtool
