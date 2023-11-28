@@ -46,3 +46,7 @@ scrape_configs:
         labels:
           group: "canary"
 
+  - job_name: "simple_server"
+
+    static_configs:
+      - targets: ["localhost:8090"]
